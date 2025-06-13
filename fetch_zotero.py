@@ -3,8 +3,8 @@ import json
 from pyzotero import zotero
 
 # === CONFIG ===
-API_KEY = 'OW2Fey2B0ogOCnsxDWZzJFjt'
-GROUP_ID = '283088'
+API_KEY = 'insert-your-api-key'
+GROUP_ID = 'insert-group-id'
 LIBRARY_TYPE = 'group'
 BATCH_SIZE = 100
 WAIT_TIME = 1  # seconds
