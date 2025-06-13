@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#searchInput {
+    width: 60%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+#searchInput:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+#searchButton {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#searchButton:hover {
+    background-color: #005fa3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    user-select: none;
+}
+
+tr:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+.pagination-controls {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.pagination-controls button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.pagination-controls button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
