@@ -21,9 +21,12 @@ Frontend
 
 1. fuzzy search
 2. fast response: all processing done on the backend
-3. light on the browser: frontend queries the database using a custom API
-4. searches the whole of zotero data. NOT limited to author, title, publication.
-5. Custom group/personal library can be configured as the database
+3. sortable table
+4. field-specific seaerch
+5. URL updates to reflect current search; can be shared and/or bookmarked
+6. light on the browser: frontend queries the database using a custom API
+7. searches the whole of zotero data. NOT limited to author, title, publication.
+8. Custom group/personal library can be configured as the database
 
 ## Requirements
 
